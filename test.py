@@ -65,7 +65,6 @@ def algoritmo_genetico(objetos, capacidade_mochila, tm_pop, num_geracoes, taxa_m
     return melhor_solucao, melhor_peso, melhor_rec
 
 if __name__ == "__main__":
-    # Exemplo de uso
     objetos = [Objeto(2, 10), Objeto(3, 8), Objeto(4, 15), Objeto(5, 7), Objeto(9, 6)]
     capacidade_mochila = 10
     tm_pop = 50
